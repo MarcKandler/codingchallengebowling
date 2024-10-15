@@ -44,6 +44,7 @@ class GameTest {
 
     @Test
     fun `that total points are calculated correctly`() {
+
         assertEquals(5, game.frames[0].totalPoints)
         assertEquals(14, game.frames[1].totalPoints)
         assertEquals(29, game.frames[2].totalPoints)
